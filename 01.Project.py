@@ -5,4 +5,4 @@ lengthinweeks = lengthleftoverfromyears // 7
 lengthleftindays = lengthleftoverfromyears % 7
 print("Years: " + str(lengthinyears))
 print("Weeks: " + str(lengthinweeks))
-print("Days: " + 1000str(lengthleftindays))
+print("Days: " + str(lengthleftindays))
