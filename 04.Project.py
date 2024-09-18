@@ -1,28 +1,16 @@
-#start = int(input("Enter Start of Range:"))
-#end = int(input("Enter End of Range:"))
-
-#for i in range (start, end + 1):
-    # if start % i == 0:
-      #  print(i)
-    
-#def prime:
-#    if n <= 1:
-#        return False
- #   for i in range(2, (n // 2) + 1):
- #       if n % i == 0:
- #           return False
- #   return True
-
-
 startrange = int(input("Enter Start of Range: "))
 endrange = int(input("Enter End of Range: "))
 
+start=str(startrange)
+end=str(endrange)
 n=startrange, endrange + 1
+print("Prime Numbers between " + start + " and " + end + ": ")
 
-#print("Prime Numbers between" + startrange + "and" + endrange + ":")
-
-for i in range(startrange, endrange + 1):
-   if n % i == 0:
-       print(n)
-   # if prime(i):
-       # print(i)
+for n in range(startrange, endrange + 1):
+   if n > 1:
+       prime= True
+       for i in range(2, n // + 1):
+            if n % i == 0:
+             prime= False
+       if prime == True:
+          print(n)
