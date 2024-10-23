@@ -19,3 +19,4 @@ while i < len(lines):
             i = end
     else:
             i += 1
+searchterm=input("Enter Search Term: ")
