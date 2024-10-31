@@ -1,9 +1,6 @@
-import csv
-
-file = '09.Project Distances.csv'
-with open(file, mode='r') as file:
-    reader = csv.reader(file)
-    distances = [row for row in reader]
+filename = '09.Project Distances.csv'
+with open(filename, mode='r') as file:
+    distances = [line.strip().split(',') for line in file]
 
 print("Distance Table:")
 for row in distances:
