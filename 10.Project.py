@@ -41,6 +41,5 @@ def printstudentreport(students):
     for student in students:
         print(f"{student.FirstName:<12} {student.LastName:<12} {student.TNumber:<12} {student.RunningAverage():<15.2f} {student.TotalAverage():<15.2f} {student.LetterGrade():<12}")
 
-# Example usage
 students = readstudents('10.Project Student Scores.txt')
 printstudentreport(students)
