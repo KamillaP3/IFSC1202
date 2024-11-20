@@ -39,5 +39,4 @@ print(f"{'Type':<15}{'Side 1':<10}{'Side 2':<10}{'Side 3':<10}{'Perimeter':<10}{
 
 for triangle in trianglelist:
     angles = triangle.angles()
-    #print(f"{triangle.type():<15}{triangle.s1:<10.3f}{triangle.s2:<10.3f}{triangle.s3:<10.3f}{triangle.perimeter():<10.3f}{triangle.area():<10.3f}{angles[0]:<10.3f}")    
     print(f"{triangle.type():<15}{triangle.s1:<10.3f}{triangle.s2:<10.3f}{triangle.s3:<10.3f}{triangle.perimeter():<10.3f}{triangle.area():<10.3f}{angles[0]:<10.3f}{angles[1]:<10.3f}{angles[2]:<10.3f}")
